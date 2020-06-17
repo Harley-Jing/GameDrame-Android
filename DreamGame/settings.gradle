@@ -1,0 +1,4 @@
+include ':GamePlatform'
+include ':BaseLib'
+include ':app'
+rootProject.name = "DreamGame"

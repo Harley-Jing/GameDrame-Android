@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialog_background_material_light">#ffffff</color>
+    <color name="dialog_background_material_dark">#2d2e30</color>
+
+    <color name="text_title_material_light">@android:color/primary_text_light</color>
+    <color name="text_title_material_dark">@android:color/primary_text_dark</color>
+    <color name="text_message_material_light">@android:color/secondary_text_light</color>
+    <color name="text_message_material_dark">@android:color/secondary_text_dark</color>
+
+    <color name="tab_material_light">#4D000000</color>
+    <color name="tab_material_dark">#1A000000</color>
+
+    <color name="text_positive_material_light">#ff4db6ac</color>
+    <color name="text_positive_material_dark">#ff008577</color>
+    <color name="text_negative_material_light">#ff4db6ac</color>
+    <color name="text_negative_material_dark">#ff008577</color>
+</resources>

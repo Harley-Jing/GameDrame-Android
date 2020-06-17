@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DreamGame</string>
+    <string name="facebook_app_id">250969066306959</string>
+    <string name="fb_login_protocol_scheme">fb250969066306959</string>
+    <string name="google_login_web_client_id">845353666140-ultp1446926bp3aauvlp006vcnklh9v0.apps.googleusercontent.com</string>
+</resources>

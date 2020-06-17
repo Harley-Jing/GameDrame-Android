@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <color name="material_deep_teal_100">#ffb2dfdb</color>
+    <color name="material_deep_teal_200">#ff80cbc4</color>
+    <color name="material_deep_teal_300">#ff4db6ac</color>
+    <color name="material_deep_teal_500">#ff008577</color>
+
+    <color name="material_blue_grey_200">#ffb0bec5</color>
+    <color name="material_blue_grey_700">#ff455a64</color>
+    <color name="material_blue_grey_800">#ff37474f</color>
+    <color name="material_blue_grey_900">#ff263238</color>
+    <color name="material_blue_grey_950">#ff21272b</color>
+</resources>

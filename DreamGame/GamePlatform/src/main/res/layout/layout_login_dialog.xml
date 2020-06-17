@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btn_google_login"
+                        android:layout_width="@dimen/login_button_width"
+                        android:layout_height="@dimen/login_button_height"
+                        android:src="@drawable/googleg_standard_color_18"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/circle_google_login_button"
+                        android:padding="8dp"
+                        android:layout_gravity="center_horizontal"
+                        android:visibility="visible"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Google"
+                        android:textColor="@android:color/tab_indicator_text"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <ImageButton
+                        android:id="@+id/btn_facebook_login"
+                        android:layout_width="@dimen/login_button_width"
+                        android:layout_height="@dimen/login_button_height"
+                        android:src="@drawable/com_facebook_button_icon"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/circle_facebook_login_button"
+                        android:padding="8dp"
+                        android:layout_gravity="center_horizontal"
+                        android:visibility="visible"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Facebook"
+                        android:textColor="@android:color/tab_indicator_text"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <ImageButton
+                        android:id="@+id/btn_twitter_login"
+                        android:layout_width="@dimen/login_button_width"
+                        android:layout_height="@dimen/login_button_height"
+                        android:src="@drawable/tw__composer_logo_white"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/circle_twitter_login_button"
+                        android:padding="10dp"
+                        android:visibility="visible"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Twitter"
+                        android:textColor="@android:color/tab_indicator_text"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageButton
+                        android:id="@+id/btn_line_login"
+                        android:layout_width="@dimen/login_button_width"
+                        android:layout_height="@dimen/login_button_width"
+                        android:src="@mipmap/line_logo"
+                        android:background="@drawable/circle_line_login_button"
+                        android:scaleType="centerCrop"
+                        android:padding="6dp"
+                        android:visibility="visible"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Line"
+                        android:textColor="@android:color/tab_indicator_text"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <ImageButton
+                        android:id="@+id/btn_tourists_login"
+                        android:layout_width="@dimen/login_button_width"
+                        android:layout_height="@dimen/login_button_width"
+                        android:src="@mipmap/tourist_logo"
+                        android:background="@drawable/circle_tourists_login_button"
+                        android:scaleType="centerCrop"
+                        android:padding="5dp"
+                        android:visibility="visible"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tourists"
+                        android:textColor="@android:color/tab_indicator_text"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
